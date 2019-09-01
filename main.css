@@ -360,7 +360,7 @@ figure {
 }
 
 .cta:after {
-  content: " N"attr(value) "";
+  content: " N "attr(value) "";
   /* display: inline-flex;
   margin: 0 0 .5em .5em; */
 }
