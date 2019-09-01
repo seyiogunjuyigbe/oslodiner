@@ -4,123 +4,191 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="team_oslo">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Menu- Oslo Diner</title>
-    <link rel="icon" href="../images/oslo_icon.png" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="../main.css" >
+    <title>Oslo Diner</title>
+    <link rel="icon" href="images/oslo_icon.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="main.css">
+
 </head>
 
-
 <body>
-    <div class="backdrop"></div>
 
-    <header class="osloixel-header">
+    <header>
         <div class="topnav" id="myTopnav">
-            <a href="../index.html"><img src="../images/oslo_logo.png" href="../index.html" alt="oslo logo"></a>
-            <a href="#" class="nav active">Menu</a>
-            <a href="../about/about.html" class="nav">Team</a>
-            <a href="../about/about.html" class="nav">About Us</a>
-            <a href="../index.html" class="nav">Home</a>
+            <a href="index.html"><img src="images/oslo_logo.png" href="index.html" alt="oslo logo"></a>
+            <a href="./menu/menu.html" class="nav">Menu</a>
+            <a href="./about/about.html#team" class="nav">Team</a>
+            <a href="./about/about.html" class="nav">About Us</a>
+            <a href="#home" class="active nav">Home</a>
         </div>
+
     </header>
 
 
+    <span class="landingcontainer">
+        <div id="#home" class="bg"></div>
+        <p id="p1">
+            <a href="menu/menu.html" class="button1">Welcome to Oslo Diner</a>
+        </p>
+    </span>
 
-    <section class="oslo-section">
 
-        <div class="title">
-            <h2>Welcome! See Our Menu</h2>
-            <div class="title-underline"></div>
-        </div>
-        <div class="oslo-wrapper">
-            <div class="oslo-container">
-                <div class="project">
-                    <figure>
-                        <img src="../images/01.png" alt="Oslo Diner">
-                        <figcaption>
-                            <div>
-                                <h3>African Cuisine</h3>
-                                <button value="5000" class="button cta">Order</button>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <img src="../images/Shop.png" alt="a Kiwi, lime, pear" title="Juicy Fruit">
-                        <figcaption>
-                            <div>
-                                <h3>Bed and Breakfast</h3>
-                                <button value="8000" class="button cta">Order</button>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <img src="../images/03.png" alt="Yellow roller coaster track" title="Roller Track">
-                        <figcaption>
-                            <div>
-                                <h3>Vegeterian</h3>
-                                <button value="2600" class="button cta">Order</button>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <img src="../images/04.png" alt="Yellow play balls" title="Yellow">
-                        <figcaption>
-                            <div>
-                                <h3>Smoothies</h3>
-                                <button value="1700" class="button cta">Order</button>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <img src="../images/05.png" alt="Side of building" title="The Fourth Wall">
-                        <figcaption>
-                            <div>
-                                <h3>Burgers & Sandwiches</h3>
-                                <button value="2500" class="button cta">Order</button>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="project">
-                    <figure>
-                        <img src="../images/04.png" alt="Skyline" title="Skyline">
-                        <figcaption>
-                            <div>
-                                <h3>Pasteries</h3>
-                                <button value="3000" class="button cta">Order</button>
-                            </div>
-                        </figcaption>
-                    </figure>
+
+    <section>
+        <div class="grid-container">
+            <div class="item4">Menu
+                <hr>
+            </div>
+            <div class="item5">
+                <div class="content">
+                    <img src="images/aboutusdish.jpg">
+                    <p><button onclick="Redirect()" class="Ordbutton">Check Our Menu</button></p>
                 </div>
             </div>
+
+
+            <div class="item6">
+                <div class="content">
+                    <img src="images/aboutusdish.jpg">
+                    <p><button onclick="Redirect()" class="Ordbutton">Check Our Menu</button></p>
+                </div>
+            </div>
+
+            <div>
+                <div class="content">
+                    <img src="images/aboutusdish.jpg">
+                    <p><button onclick="Redirect()" class="Ordbutton">Check Our Menu</button></p>
+                </div>
+            </div>
+
+            <div class="item8">
+                <div class="content">
+                    <img src="images/aboutusdish.jpg">
+                    <p><button onclick="Redirect()" class="Ordbutton">Check Our Menu</button></p>
+                </div>
+            </div>
+
+
+            <!-- <div class="item9">Team<hr></div>
+                    <div class="item10">
+                        <div class="content">
+                            <img src="images/avatar2.png" alt="Avatar" class="avatar">
+                            <div class="desc">Add a description of the image here</div>
+                        </div>  
+                    </div>
+                    <div class="item11">
+                        <div class="content">
+                            <img src="images/avatar2.png" alt="Avatar" class="avatar">
+                            <div class="desc">Add a description of the image here</div>
+                        </div>
+                    </div>
+                <div class="item12">
+                    <div class="content">
+                        <img src="images/avatar2.png" alt="Avatar" class="avatar">
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                </div>
+                <div class="item13">
+                    <div class="content">
+                        <img src="images/avatar2.png" alt="Avatar" class="avatar">
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                </div>
+
+                <div class="item115">
+                    <div class="content">
+                        <img src="images/avatar2.png" alt="Avatar" class="avatar">
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                </div>
+                    
+                <div class="item16">
+                    <div class="content">
+                        <img src="images/avatar2.png" alt="Avatar" class="avatar">
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                </div>
+            
+            
+                <div class="item17">
+                    <div class="content">
+                        <img src="images/avatar2.png" alt="Avatar" class="avatar">
+                        <div class="desc">Add a description of the image here</div>
+                    </div>    
+                </div>
+                    
+                <div class="item18">
+                    <div class="content">
+                        <img src="images/avatar2.png" alt="Avatar" class="avatar">
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                </div> -->
+
+
         </div>
+
     </section>
-    <div class="modal">
-            <div class="bill_container">
-                <h2 class="dispaly_bill"></h2>
+
+
+<section id="testimonial-section">
+    <div class="testimonials">
+      <div class="inner">
+        <h1>Testimonials</h1>
+        <div class="border"></div>
+
+        <div class="row">
+          <div class="col mySlides">
+            <div class="testimonial">
+              <h1 class="name">Peter Emmanuel</h1>
+              <p>
+               “The Pounded yam and egusi soup tastes so delicious”
+              </p>
             </div>
-            <div class="user_data">
-                    <input type="email" name="email" placeholder="user@mail.com"><br><br>
-                    <form>
-                            <script src="https://api.ravepay.co/flwv3-pug/getpaidx/api/flwpbf-inline.js"></script>
-                            <button type="button" onClick="payWithRave()">Pay Now</button>
-                        </form>
-                        
-                        <script src="menu.js"></script>
-    
+          </div>
+
+          <div class="col mySlides">
+            <div class="testimonial">
+              <h1 class="name">Nma O. Nma</h1>
+               <p>
+                “Wait till you try their afang soup”
+              </p>
             </div>
+          </div>
+
+          <div class="col mySlides">
+            <div class="testimonial">
+              <h1 class="name">Chukwuebuka Ernest</h1>
+              <p>“They have great customer service”</p>
+            </div>
+          </div>
         </div>
-        <div class="footer">
-                <p>&copy; team_oslo 2019</p>
-              </div>
+      </div>
+    </div>
+</section>
+
+    <div class="footer">
+        <p>&copy; team_oslo 2019</p>
+    </div>
+    <script src="main.js"></script>
+    <script type="text/javascript">
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+    </script>
 </body>
 
 </html>
